@@ -1,0 +1,27 @@
+# This test sends two chat messages and mds online and typing messages
+# send MDS online
+o 1
+# send MDS typing
+t 1
+# send a lot of chat messages
+m Can you restate the name of the referral specialist one?
+s 1
+m Can you restate the name of the referral specialist two?
+s 1
+m Can you restate the name of the referral specialist three?
+s 1
+m Can you restate the name of the referral specialist four?
+s 1
+m Can you restate the name of the referral specialist five?
+s 1
+m Can you restate the name of the referral specialist six?
+s 1
+m Can you restate the name of the referral specialist seven?
+s 1
+m Can you restate the name of the referral specialist eight?
+s 1
+m Can you restate the name of the referral specialist nine?
+s 1
+m Can you restate the name of the referral specialist ten?
+# quit
+q
