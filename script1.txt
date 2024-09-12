@@ -1,0 +1,27 @@
+# This test sends two chat messages and mds online and typing messages
+# send MDS online
+o 1
+# send MDS typing
+t 1
+# sleep 3 seconds
+s 3
+# send chat message
+m Can you restate the name of the referral specialist?
+# send MDS not typing
+t 0
+# sleep 3 seconds
+s 8
+# send MDS typing
+t 1
+# sleep 3 seconds
+s 3
+# send chat message
+m What was the primary concern for the oncologist?
+# send MDS not typing
+t 0
+# sleep 2 seconds
+s 2
+# send MDS offline
+o 0
+# quit
+q
